@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\studio\sdktwo\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\android\MobileSafe\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-ee083b953b523d41c38740f0a129e1ae1095d777.jar" />
+    </item>
+    <item
+        jar="E:\android\MobileSafe\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\android\MobileSafe\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14-6689f69db244af5aae3299bf73ae577184b1235e.jar" />
+    </item>
+
+</items>

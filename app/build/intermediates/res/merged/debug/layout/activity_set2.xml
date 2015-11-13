@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title"
+        android:text="2.手机卡绑定" />
+
+    <TextView
+        style="@style/title_text"
+        android:text="通过绑定SIM卡" />
+    <TextView
+        style="@style/title_text"
+        android:text="下次重启手机发现SIM卡变更,会发送短信警报" />
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+       <TextView
+        style="@style/title_rl"
+        android:text="点击绑定/解绑SIM卡" />
+       <ImageView 
+            android:id="@+id/set2_bind"
+           android:layout_alignParentRight="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="5dp"
+           android:src="@drawable/unlock"
+           />
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+      
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_online"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible"
+            />
+    </LinearLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        >
+        <ImageView 
+            android:clickable="true"
+           
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bind"
+            />
+                <TextView 
+            android:text="上一步"
+            style="@style/back"
+            android:id="@+id/set2_back"
+
+            />
+        <TextView 
+            android:text="下一步"
+            style="@style/next"
+            android:id="@+id/set2_next"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/E:/android/MobileSafe/app/src/main/res/layout/activity_set2.xml -->

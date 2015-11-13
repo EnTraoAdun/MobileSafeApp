@@ -1,0 +1,283 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:2:1-133:12
+	package
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:15:22-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.READ_SMS
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:19:5-70
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:19:22-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:23:5-69
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:23:22-66
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:24:5-73
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:24:22-70
+uses-permission#android.permission.WRITE_SMS
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:26:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:27:5-77
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:27:22-75
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:29:5-83
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:29:22-81
+application
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:31:5-131:19
+	android:label
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:34:9-41
+	android:allowBackup
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:32:9-35
+	android:icon
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:33:9-45
+	android:theme
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:35:9-40
+activity#com.itheima.mobileSafe.activities.SplashActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:36:9-45:20
+	android:label
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:38:13-45
+	android:theme
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:39:13-42
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:37:13-76
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:43:27-74
+activity#com.itheima.mobileSafe.activities.HomeActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:46:9-47:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:46:19-80
+activity#com.itheima.mobileSafe.activities.SettingActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:48:9-49:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:48:19-83
+activity#com.itheima.mobileSafe.activities.ProtectActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:50:9-51:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:50:19-83
+activity#com.itheima.mobileSafe.activities.Setting1Activity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:52:9-53:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:52:19-84
+activity#com.itheima.mobileSafe.activities.Setting2Activity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:54:9-55:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:54:19-84
+activity#com.itheima.mobileSafe.activities.Setting3Activity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:56:9-57:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:56:19-84
+activity#com.itheima.mobileSafe.activities.Setting4Activity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:58:9-59:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:58:19-84
+activity#com.itheima.mobileSafe.activities.SelectContact
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:60:9-61:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:60:19-81
+activity#com.itheima.mobileSafe.activities.MainprotectActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:62:9-63:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:62:19-87
+activity#com.itheima.mobileSafe.activities.BlackNumberActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:64:9-65:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:64:19-87
+activity#com.itheima.mobileSafe.activities.AddBlackNumberActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:66:9-67:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:66:19-90
+activity#com.itheima.mobileSafe.activities.UtilsActvity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:68:9-69:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:68:19-80
+activity#com.itheima.mobileSafe.activities.LocationActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:70:9-71:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:70:19-84
+activity#com.itheima.mobileSafe.activities.AppManagerActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:72:9-73:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:72:19-86
+activity#com.itheima.mobileSafe.activities.ProcessAvtivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:74:9-75:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:74:19-83
+activity#com.itheima.mobileSafe.activities.MonitoringActivity
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:76:9-77:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:76:19-86
+receiver#com.itheima.mobileSafe.reciver.HeimaWidget
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:78:9-83:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:78:19-76
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:79:13-81:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:80:17-83
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:80:25-81
+meta-data#android.appwidget.provider
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:82:13-115
+	android:resource
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:82:66-113
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:82:24-65
+receiver#com.itheima.mobileSafe.reciver.KillAllProcess
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:84:9-88:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:84:19-79
+intent-filter#com.itheima.mobileSafe.Kill
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:85:13-87:29
+action#com.itheima.mobileSafe.Kill
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:86:17-69
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:86:25-67
+activity#com.itheima.mobileSafe.reciver.MyDeviceAdmin
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:89:9-97:20
+	android:label
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:91:13-65
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:90:13-72
+intent-filter#android.intent.action.MAIN+android.intent.category.SAMPLE_CODE
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:92:13-96:29
+category#android.intent.category.SAMPLE_CODE
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:95:17-80
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:95:27-77
+receiver#com.itheima.mobileSafe.reciver.MyDeviceAdmin
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:99:9-111:20
+	android:label
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:102:13-56
+	android:permission
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:103:13-70
+	android:description
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:101:13-74
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:100:13-72
+meta-data#android.app.device_admin
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:104:13-106:63
+	android:resource
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:106:17-60
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:105:17-56
+intent-filter#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:108:13-110:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:109:17-82
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:109:25-79
+receiver#com.itheima.mobileSafe.reciver.MyReciver
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:112:9-116:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:112:19-74
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:113:13-115:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:114:17-79
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:114:25-76
+receiver#com.itheima.mobileSafe.reciver.SmsReceiver
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:117:9-121:20
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:117:19-76
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:118:13-120:29
+	android:priority
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:118:28-51
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:119:17-82
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:119:25-79
+service#com.itheima.mobileSafe.reciver.GPSservice
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:123:9-124:19
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:123:18-74
+service#com.itheima.mobileSafe.services.BlackNumberService
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:125:9-126:19
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:125:18-83
+service#com.itheima.mobileSafe.services.ShowLocationService
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:127:9-128:19
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:127:18-84
+service#com.itheima.mobileSafe.services.MakeWidgetService
+ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:129:9-130:19
+	android:name
+		ADDED from E:\android\MobileSafe\app\src\main\AndroidManifest.xml:129:18-82

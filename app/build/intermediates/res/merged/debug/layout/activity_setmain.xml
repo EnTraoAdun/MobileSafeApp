@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title"
+        android:text="手机防盗" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安全号码" />
+
+        <TextView
+            android:id="@+id/main_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="123" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="change"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="防盗保护是否开启" />
+
+        <ImageView
+            android:id="@+id/main_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/lock" />
+    </RelativeLayout>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="reset"
+        android:text="重新进入设置向导" />
+    <TextView 
+	    android:text="功能简介"
+	    android:background="#B8B8B8"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	<TextView
+	    android:text="GPS追踪:#*location*#"
+	    style="@style/tv_content"/>
+	<TextView
+	    android:text="播放报警音乐:#*alarm*#"
+	    style="@style/tv_content"/>
+	<TextView
+	    android:text="远程删除数据:#*wipedata*#"
+	    style="@style/tv_content"/>
+	<TextView
+	    android:text="远程锁屏:#*lockscreen*#"
+	    style="@style/tv_content"/>
+
+</LinearLayout><!-- From: file:/E:/android/MobileSafe/app/src/main/res/layout/activity_setmain.xml -->

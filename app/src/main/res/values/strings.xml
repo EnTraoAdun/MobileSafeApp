@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机卫士</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">安全卫士1</string>
+    <string name="activity_sample_device_admin">安全卫士2</string>
+    <string name="sample_device_admin_description">然并卵</string>
+    <string name="sample_device_admin">安全卫士3</string>
+
+</resources>
